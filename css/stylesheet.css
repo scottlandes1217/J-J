@@ -1,0 +1,278 @@
+
+.test {
+    border:solid;
+}
+
+body {
+    font-family: Palantino, Times;
+    font-weight: 300;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+a {
+    color: #800000;
+}
+a:hover {
+    color: #000000;
+}
+
+.row-content{
+    margin-top: 50px;
+}
+
+.float {
+    margin-top: -150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row-hero {
+    display: flex;
+}
+
+.title {
+	font-family: Lato, Times;
+    margin: 0;
+}
+
+.about-text {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.page-title {
+    font-family: Lato, Times;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.name
+{
+	font-family: Times, Palatino;
+    margin: 0;
+}
+
+.header {
+    padding-top: 35px;
+}
+
+.logo {
+    padding: 0;
+    width: 100px;
+
+}
+
+.line {
+
+   border-bottom: solid #800000
+}
+
+.hero {
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.main {
+    background-color: ##F2F2F2;
+}
+
+.info {
+    font-size: 1.25em;
+}
+
+.font-light {
+    font-weight: 100;
+}
+
+.cta {
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px 0 10px 0;
+
+}
+.cta-header {
+    margin-top: 0;
+}
+
+.modal-footer-text {
+    float: left;
+}
+
+.work-title {
+    padding: 5px 0 5px 10px;
+    font-weight: 10px;
+    text-decoration: underline;
+}
+.work-body {
+    padding-left: 10px;
+}
+.work-date {
+    padding-left: 10px;
+    padding-top: 15px
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    background: #800000;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+    text-shadow: 2px 1px #000;
+    overflow: hidden;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+.hovereffect h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.75s;
+    transition: transform 0.75s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+.hovereffect:hover h2:after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+    color: #FFF;
+    text-shadow: 2px 1px #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.75s;
+    transition: opacity 0.35s, transform 0.75s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.modal-content {
+    max-height: calc(100vh - 100px);
+    width: 100%;
+    overflow: scroll;
+    position: fixed;
+}
+
+/* Responsive Media Query */
+
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1500px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+   .col-sm-4 {
+        width: 100%;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header {
+        text-align: left;
+        padding-top: 0 !important;
+    }
+
+    .text-center {
+        margin: 0 80px 0 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+   
+    .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+      
+    .header {
+        text-align: center;
+        padding-top: 0 !important;
+        
+    }
+
+    .text-center {
+        margin: 0;
+  }
+}
+
+
+
+
