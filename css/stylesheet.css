@@ -44,39 +44,6 @@ a:hover {
     display: flex;
 }
 
-.title {
-	font-family: Lato, Times;
-    margin: 0;
-}
-
-.about-text {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.page-title {
-    font-family: Lato, Times;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.name
-{
-	font-family: Times, Palatino;
-    margin: 0;
-}
-
-.header {
-    padding-top: 35px;
-}
-
-.logo {
-    padding: 0;
-    width: 100px;
-
-}
-
 .line {
 
    border-bottom: solid #A30000
@@ -85,18 +52,6 @@ a:hover {
 .hero {
     padding-top: 10px;
     max-width: 100%;
-}
-
-.main {
-    background-color: ##F2F2F2;
-}
-
-.info {
-    font-size: 1.25em;
-}
-
-.font-light {
-    font-weight: 100;
 }
 
 .cta {
@@ -109,22 +64,47 @@ a:hover {
     margin-top: 0;
 }
 
-.modal-footer-text {
-    float: left;
+
+/* Responsive Media Query */
+
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1500px;
+    }
 }
 
-.work-title {
-    padding: 5px 0 5px 10px;
-    font-weight: 10px;
-    text-decoration: underline;
+@media only screen and (max-width: 768px) {
+   
+   .col-sm-4 {
+        width: 100%;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .text-center {
+        margin: 0 80px 0 80px;
+  }
 }
-.work-body {
-    padding-left: 10px;
+
+@media only screen and (max-width: 768px) {
+   
+    .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+      
+    .text-center {
+        margin: 0;
+  }
 }
-.work-date {
-    padding-left: 10px;
-    padding-top: 15px
-}
+
+/* Hover effects */
 
 .hovereffect {
     width: 100%;
@@ -215,64 +195,5 @@ a:hover {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
-
-.modal-content {
-    max-height: calc(100vh - 100px);
-    width: 100%;
-    overflow: scroll;
-    position: fixed;
-}
-
-/* Responsive Media Query */
-
-
-@media (min-width: 1500px) {
-    .container {
-        width: 1500px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-   
-   .col-sm-4 {
-        width: 100%;
-    }
-
-    .logo {
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .header {
-        text-align: left;
-        padding-top: 0 !important;
-    }
-
-    .text-center {
-        margin: 0 80px 0 80px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-   
-    .logo {
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-    }
-      
-    .header {
-        text-align: center;
-        padding-top: 0 !important;
-        
-    }
-
-    .text-center {
-        margin: 0;
-  }
-}
-
-
 
 
