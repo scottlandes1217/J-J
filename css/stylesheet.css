@@ -24,7 +24,7 @@ p {
 }
 
 a {
-    color: #800000;
+    color: #A30000;
 }
 a:hover {
     color: #000000;
@@ -79,7 +79,7 @@ a:hover {
 
 .line {
 
-   border-bottom: solid #800000
+   border-bottom: solid #A30000
 }
 
 .hero {
@@ -134,7 +134,7 @@ a:hover {
     position: relative;
     text-align: center;
     cursor: pointer;
-    background: #800000;
+    background: #A30000;
 }
 
 .hovereffect .overlay {
@@ -169,7 +169,7 @@ a:hover {
 .hovereffect h2 {
     text-transform: uppercase;
     font-weight: bold;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     position: relative;
     font-size: 2em;
@@ -199,7 +199,7 @@ a:hover {
 }
 
 .hovereffect a, .hovereffect p {
-    color: #FFF;
+    color: #ffffff;
     text-shadow: 2px 1px #000;
     opacity: 0;
     filter: alpha(opacity=0);
