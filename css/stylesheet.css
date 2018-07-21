@@ -30,6 +30,18 @@ a:hover {
     color: #000000;
 }
 
+.main-header {
+    text-align: center;
+}
+
+.main-text {
+    font-size: 14px;
+}
+
+.main-content {
+    padding-bottom: 10px;
+}
+
 .row-content{
     margin-top: 50px;
 }
@@ -38,6 +50,10 @@ a:hover {
     margin-top: -150px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.events {
+    padding-bottom: 10px;
 }
 
 .row-hero {
@@ -64,6 +80,22 @@ a:hover {
     margin-top: 0;
 }
 
+
+/* footer styling */
+
+.row-footer {
+    height: 100px;
+    max-width: 100%;
+    margin: 5px;
+}
+
+.col-footer {
+    margin-top: 15px;
+}
+
+.footer-text {
+    text-align: center;
+}
 
 /* Responsive Media Query */
 
