@@ -9,14 +9,8 @@ html {
   height: 100%;
 }
 
-h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 p {
     margin-bottom: 0px;
-    text-align: justify;
 }
 
 a {
@@ -26,12 +20,36 @@ a:hover {
     color: #000000;
 }
 
+/* Styling for Main Menu */
+
+.menu {
+    text-align: center;
+}
+
+.menu-title {
+    padding-top: 10px
+    padding-bottom: 10px;
+}
+
+.space {
+    padding: 15px;
+}
+
+/*End Styling for menu */
+
+.day {
+    font-size: 18px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
 .main-header {
     text-align: center;
 }
 
 .main-text {
     font-size: 14px;
+    text-align: justify;
 }
 
 .main-content {
