@@ -1,8 +1,4 @@
 
-.test {
-    border:solid;
-}
-
 body {
     font-family: Palantino, Times;
     font-weight: 300;
@@ -46,6 +42,19 @@ a:hover {
     margin-top: 50px;
 }
 
+.social {
+    padding-top: 25px;
+}
+
+.social-table {
+    margin-right: auto;
+    margin-left: auto;
+}
+.social-icon {
+    padding:15px;
+    width: 70px;
+}
+
 .float {
     margin-top: -150px;
     margin-left: 10px;
@@ -81,12 +90,19 @@ a:hover {
 }
 
 
+/*Events Styling*/
+.events {
+    border: solid;
+    margin-bottom: 15px;
+}
+
 /* footer styling */
 
 .row-footer {
     height: 100px;
     max-width: 100%;
     margin: 5px;
+    border-top: solid;
 }
 
 .col-footer {
