@@ -44,6 +44,8 @@ a:hover {
 
 .social {
     padding-top: 25px;
+    margin-left: -30px;
+    padding-left: 50px;
 }
 
 .social-table {
@@ -93,7 +95,7 @@ a:hover {
 /*Events Styling*/
 .events {
     border: solid;
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 /* footer styling */
