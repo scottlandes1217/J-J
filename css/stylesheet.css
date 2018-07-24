@@ -20,6 +20,14 @@ a:hover {
     color: #000000;
 }
 
+
+.footer-logo {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
 /* Styling for Main Menu */
 
 .menu {
