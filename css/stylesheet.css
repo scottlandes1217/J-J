@@ -2,6 +2,7 @@
 body {
     font-family: Palantino, Times;
     font-weight: 300;
+    background-color: #000000;
 }
 
 html {
@@ -11,6 +12,11 @@ html {
 
 p {
     margin-bottom: 0px;
+    color:#ffffff;
+}
+
+h1, h2, h3, h4 {
+    color:#ffffff;
 }
 
 a {
@@ -34,11 +40,20 @@ a:hover {
     margin-bottom: 5px;
 }
 
+/* End Specials Styling */
 
+.main-text {
+    padding-left: 20px;
+}
+
+.phone {
+    text-decoration: underline;
+}
 
 .social-table-footer {
     margin-left: -10px;
 }
+
 .row-hero {
   position: relative;
   display: flex;
@@ -148,11 +163,7 @@ a:hover {
     padding-bottom: 10px;
     padding-left: 10px;
     text-decoration: underline;
-}
-
-.line {
-
-   border-bottom: solid #A30000
+    color: #ffffff;
 }
 
 .hero {
@@ -163,6 +174,7 @@ a:hover {
 .cta {
     border-style: solid;
     border-width: 1px;
+    border-color: #ffffff;
     margin: 10px 0 10px 0;
 
 }
@@ -174,16 +186,18 @@ a:hover {
 /*Events Styling*/
 .events {
     border: solid;
+    border-color: #ffffff;
     margin: 15px;
 }
 
-/* footer styling */
+/* Footer styling */
 
 .row-footer {
     height: 100px;
     max-width: 100%;
     margin: 5px;
     border-top: solid;
+    border-color: #ffffff;
 }
 
 .col-footer {
@@ -192,6 +206,11 @@ a:hover {
 
 .footer-text {
     text-align: center;
+}
+
+.row-footer {
+    background-color: #666666;
+    height: 210px;
 }
 
 
