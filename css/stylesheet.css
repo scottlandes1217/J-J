@@ -272,6 +272,10 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .row-footer {
+        height: 450px;
+    }
 }
 
 /* Responsive Media Query for Events */
