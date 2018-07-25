@@ -105,8 +105,8 @@ a:hover {
 
 .menu {
     text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     border-right:  5px solid #fff;
     border-left:   5px solid  #fff;
 
@@ -131,6 +131,8 @@ a:hover {
 }
 .menu-item-description {
     text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /* END Styling for Main Menu */
