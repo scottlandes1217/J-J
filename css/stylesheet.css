@@ -15,7 +15,7 @@ p {
     color:#ffffff;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     color:#ffffff;
 }
 
@@ -41,6 +41,12 @@ a:hover {
 }
 
 /* End Specials Styling */
+
+.main-header {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 46px;
+}
 
 .main-text {
     padding-left: 20px;
@@ -99,12 +105,34 @@ a:hover {
 
 .menu {
     text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-right:  5px solid #fff;
+    border-left:   5px solid  #fff;
+
+}
+.menu-header {
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+
+
+}
+.menu-item {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.menu-title {
+    margin-top: 30px !important;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 28px;
+}
+.menu-item-description {
+    text-decoration: none;
 }
 
-.menu-title {
-    padding-top: 10px
-    padding-bottom: 10px;
-}
+/* END Styling for Main Menu */
 
 .space {
     padding: 15px;
