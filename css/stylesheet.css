@@ -135,6 +135,11 @@ a:hover {
     margin-left: 15px;
 }
 
+.disclaimer {
+    color: red;
+    margin-top: 50px;
+}
+
 /* END Styling for Main Menu */
 
 .space {
