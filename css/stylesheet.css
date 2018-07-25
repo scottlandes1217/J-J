@@ -20,8 +20,25 @@ a:hover {
     color: #000000;
 }
 
+/*Specials Styling */
+
+.special-header {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.special-item {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
 
 
+
+.social-table-footer {
+    margin-left: -10px;
+}
 .row-hero {
   position: relative;
   display: flex;
@@ -105,7 +122,7 @@ a:hover {
 
 .social {
     padding-top: 25px;
-    margin-left: -30px;
+    margin-left: -15px;
     padding-left: 50px;
 }
 
@@ -114,8 +131,12 @@ a:hover {
     margin-left: auto;
 }
 .social-icon {
-    padding:15px;
-    width: 70px;
+    padding:10px;
+    width: 65px;
+}
+.social-icon-footer {
+    padding:10px;
+    width: 65px;
 }
 
 .float {
@@ -126,6 +147,7 @@ a:hover {
 .events {
     padding-bottom: 10px;
     padding-left: 10px;
+    text-decoration: underline;
 }
 
 .line {
@@ -183,8 +205,38 @@ a:hover {
     margin-top: -14.3em;
     }
 
+/* Responsive Media Query for Footer */
 
-/* Responsive Media Query for Logo */
+@media only screen and (max-width: 768px) {
+   
+   .contact-info-footer {
+        text-align: center;
+    }
+
+    .social-table-footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Responsive Media Query for Events */
+
+@media only screen and (max-width: 768px) {
+   
+   .events {
+        text-align: center;
+    }
+}
+
+
+/* Responsive Media Query for Interior Logo */
+
+@media only screen and (max-width: 1269px) {
+   
+   .logo-interior {
+        margin-top: -9.3em;
+    }
+}
 
 @media only screen and (max-width: 1269px) {
    
