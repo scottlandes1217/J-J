@@ -231,9 +231,11 @@ a:hover {
 .row-footer {
     height: 100px;
     max-width: 100%;
-    margin: 5px;
+    margin-top: 150px;
     border-top: solid;
     border-color: #ffffff;
+    background-color: #666666;
+    height: 210px;
 }
 
 .col-footer {
@@ -243,13 +245,6 @@ a:hover {
 .footer-text {
     text-align: center;
 }
-
-.row-footer {
-    background-color: #666666;
-    height: 210px;
-}
-
-
 
 .logo-interior {
     top: -10px;
