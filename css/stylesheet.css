@@ -26,6 +26,9 @@ a:hover {
     color: #000000;
 }
 
+.header {
+    padding-bottom: 25px;
+}
 /*Specials Styling */
 
 .special-header {
@@ -227,7 +230,6 @@ a:hover {
 .row-footer {
     height: 100px;
     max-width: 100%;
-    margin-top: 150px;
     border-top: solid;
     border-color: #ffffff;
     background-color: #666666;
