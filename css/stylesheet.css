@@ -56,10 +56,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.social-table-footer {
-    margin-left: -10px;
-}
-
 .row-hero {
   position: relative;
   display: flex;
@@ -254,6 +250,11 @@ a:hover {
     margin-right: auto;
     margin-top: -14.3em;
     }
+
+.contact-info-footer {
+         padding-left: 15px;
+     }
+
 
 /* Responsive Media Query for Footer */
 
